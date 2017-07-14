@@ -1,0 +1,71 @@
+.list-set {
+  list-style:none;
+  border:1px solid #d1d1d1;
+  padding: 0rem 0.3rem 0rem 0.3rem;
+  margin: 0rem;
+
+  > li {
+    display: block;
+    padding: 1.5rem 0.5rem;
+    font-size : 0rem;
+    height: 6.0rem;
+
+    @extend .clearfix;
+    > div {
+      float:none;
+      font-size: 0.1rem;
+      display: inline-block;
+      vertical-align: text-bottom;
+      line-height: 2.3rem;
+      overflow: hidden;
+      div, h5, h6{
+        //text-overflow: ellipsis;
+        //white-space: nowrap;
+        overflow: hidden;
+        word-break: break-all;
+      }
+    }
+  }
+
+  > li.line-large{
+    height : 8.1rem;
+    padding: 2.5rem 0.5rem;
+  }
+}
+
+.line{
+  border-top: 0.1rem solid #d1d1d1;
+}
+.line-center{
+  display: block;
+  line-height: 1.4rem;
+}
+
+.rider-list-set{
+  border : 1px solid #d1d1d1;
+  padding: 0rem 1.5rem;
+  list-style:none;
+
+  .rider-item{
+    padding: 1.5rem 0rem;
+    height: 6.0rem;
+    display: table;
+    width: 100%;
+    div {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  .counter{
+    height:8.0rem;
+    padding: 2.5rem 0rem;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    .label {
+      display: inline-block;
+      padding: 0.4rem 0.3rem;
+      font-size: 1.9rem;
+      width: 80%;
+    }
+  }
+}

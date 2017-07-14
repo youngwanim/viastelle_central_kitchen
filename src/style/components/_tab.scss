@@ -1,0 +1,34 @@
+.tab {
+  @extend .clearfix;
+}
+.tab-item {
+  position: relative;
+  background-color: #fff;
+  float: left;
+  font-size: 1.4rem;
+  line-height: (20/16);
+  padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  margin-right: 1.7rem;
+  height: 4.5rem;
+  width: 20.0rem;
+
+  border: 1px solid #999;
+
+  &:first-child {
+    margin-left: 1.2rem;
+  }
+
+
+}
+.tab-item.active {
+  background-color: white;
+  height: 4.6rem;
+}
+.tab-contents {
+  display: none;
+}
+.tab-contents.active {
+  display: block;
+}

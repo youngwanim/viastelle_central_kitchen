@@ -1,0 +1,117 @@
+.button {
+  display: inline-block;
+  padding: 0.9rem 2.0rem 1.0rem;
+  margin-bottom: 0;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: (30/19);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0.7rem;
+  background-color: transparent;
+  outline: none;
+}
+
+.button-default {
+  border: 1px solid #969696;
+  color: #969696;
+}
+.button-orange{
+  border: 1px solid #969696;
+  background-color: #ffc360;
+  color: #858585;
+}
+.button-violet{
+  border: 1px solid #969696;
+  background-color: #ead4ff;
+  color: #858585;
+}
+.button-purple{
+  border: 1px solid #969696;
+  background-color: #d8adff;
+  color: #858585;
+}
+.button-gray{
+  border: 1px solid #969696;
+  background-color: #e8e8e8;
+  color: #858585;
+
+  -mox-box-shadow : 0.3rem 0.3rem #d9d9d9;
+  -webkit-box-shadow: 0.3rem 0.3rem #d9d9d9;
+  box-shadow: 0.3rem 0.3rem #d9d9d9;
+}
+.button-gray:active{
+  background-color: #52e3c1;
+  -mox-box-shadow : 0.1rem 0.1rem #a3a3a3;
+  -webkit-box-shadow: 0.1rem 0.1rem #a3a3a3;
+  box-shadow: 0.1rem 0.1rem #a3a3a3;
+}
+
+.button-small {
+  padding: 0.2rem 1.0rem;
+  font-size: 1.2rem;
+  //line-height: (20/12);
+  width:95%;
+}
+.button-large {
+  padding: 0.9rem 3.0rem 0.9rem;
+  font-size: 2.3rem;
+  line-height: (40/23);
+}
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.button[disabled] {
+  cursor: not-allowed;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] ~ label {
+  position: relative;
+  display:inline-block;
+  vertical-align:middle;
+
+  border: 1px solid #858585;
+  color: #858585;
+  background-color: #e8e8e8;
+}
+input:checked ~ label
+{
+  background-color: #ffc360;
+}
+input:checked + label:before{
+  content: '\2714';
+}
+input[type=checkbox][disabled] ~ label{
+  opacity: 0.5;
+}
+.chk_label{
+  cursor:pointer;
+
+  border: 1px solid;
+  border-radius: 3.0rem;
+  width: 10.0rem;
+}
+.chk_symbol{
+  width: 2.0rem;
+  height: 2.0rem;
+  padding: 0rem;
+
+  border: 1px solid;
+  border-radius: 2.0rem;
+}

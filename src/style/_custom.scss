@@ -1,0 +1,113 @@
+html {
+  height: 100%;
+}
+body {
+  min-width: 110rem;
+}
+:lang(en) {
+  font-family: 'Gotham', 'Helvetica', sans-serif;
+}
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+.btn-group-vertical > .btn-group:before,
+.btn-group-vertical > .btn-group:after,
+.tab-item:before,
+.tab-item:after,
+.panel-body:before,
+.panel-body:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after,
+.container:after,
+.row:after,
+.tab-item:before,
+.tab-item:after,
+.panel-body:after{
+  clear: both;
+}
+
+.bodyPanel {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+}
+.bodyPanel > section {
+  padding: 4.0rem 7.0rem;
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+}
+
+.tab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -4.5rem;
+}
+.tab-contents {
+  overflow: hidden;
+}
+
+.body--login {
+  position: absolute;
+  height: 34.0rem;
+  width:35.4rem;
+
+  top:50%;
+  left: 50%;
+
+  margin-top: -17.0rem;
+  margin-left: -17.7rem;
+
+  background-color: #ededed;
+  border: 1px solid #969696;
+
+
+  .loginPanel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    padding: 1.8rem  4.7rem 5.3rem 4.7rem;
+    border-radius: 0.8rem;
+
+    .login_header {
+      height: 9.7rem;
+      > div {
+        padding-top: 1.5rem;
+      }
+    }
+    .login_section {
+      height: 9.0rem;
+    }
+    .login_footer {
+      height: 9.2rem;
+      padding-top: 4.5rem;
+      .button{
+        font-size: 1.4rem;
+        padding: 0.5rem 3.0rem;
+        border-radius: 0rem;
+        background-color: #999;
+        color: #fff;
+      }
+    }
+
+    input {
+      margin-bottom: 3.3rem;
+      font-size: 1.4rem;
+      border: 1px solid #bcbec0;
+      padding: 0.2rem 2.0rem;
+    }
+  }
+}
+
+.title{
+  height: 10.0rem;
+  padding: 2.0rem 0rem;
+}

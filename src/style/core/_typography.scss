@@ -1,0 +1,78 @@
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 200;
+}
+h1{
+  font-size: 4.8rem;
+  margin: 0rem;
+}
+h2 {
+  font-size: 3.6rem;
+  margin: 0rem;
+}
+h3 {
+  font-size: 3.0rem;
+  margin: 0rem;
+}
+h4 {
+  font-size: 2.4rem;
+  margin: 0rem;
+}
+h5 {
+  font-size: 1.8rem;
+  margin: 0rem;
+}
+h6 {
+  font-size: 1.2rem;
+  margin: 0rem;
+}
+
+.text-default{
+  color:#d1d1d1;
+}
+.text-ghost{
+  color:#ffffff;
+}
+.text-warning{
+  color: #c72306;
+}
+.text-mint{
+  color: #77e6d7;
+}
+.text-blue{
+  color:#4a90e0;
+}
+.text-orange{
+  color:#f5a525;
+}
+.text-dark{
+  color:#5c5c5c;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
